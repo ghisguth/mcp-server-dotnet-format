@@ -1,0 +1,34 @@
+﻿<Project>
+  <PropertyGroup>
+    <Company>Alexander Fedora</Company>
+    <Copyright>Copyright © Alexander Fedora</Copyright>
+    <Deterministic>false</Deterministic>
+    <Product>Dotnet Format Mcp Server</Product>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <LangVersion>latest</LangVersion>
+
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisMode>All</AnalysisMode>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <EnableStyleCopAnalyzers>true</EnableStyleCopAnalyzers>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <CodeAnalysisConfigPath>$(MSBuildThisFileDirectory)</CodeAnalysisConfigPath>
+    <CodeAnalysisConfigFilePath>$(CodeAnalysisConfigPath)stylecop.json</CodeAnalysisConfigFilePath>
+    <CodeAnalysisConfigRuleSetFilePath>$(CodeAnalysisConfigPath)stylecop.ruleset</CodeAnalysisConfigRuleSetFilePath>
+</PropertyGroup>
+
+  <ItemGroup>
+    <ProjectCapability Include="DynamicDependentFile" />
+    <ProjectCapability Include="DynamicFileNesting" />
+    <ProjectCapability Include="ConfigurableFileNesting" />
+    <ProjectCapability Include="ConfigurableFileNestingFeatureEnabled" />
+  </ItemGroup>
+</Project>

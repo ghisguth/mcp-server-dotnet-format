@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.Build.Traversal">
+  <ItemGroup>
+    <ProjectReference Include="src\McpServerDotnetFormat\McpServerDotnetFormat.csproj" Pack="true" Test="false" />
+    <ProjectReference Include="src\McpServerDotnetFormat.Tests\McpServerDotnetFormat.Tests.csproj" Pack="false" Test="true"/>
+  </ItemGroup>
+</Project>
