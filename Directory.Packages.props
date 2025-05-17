@@ -16,6 +16,8 @@
     <PackageVersion Include="Microsoft.VisualStudio.SlnGen" Version="11.2.6" />
     <PackageVersion Include="Microsoft.VisualStudio.TestPlatform.ObjectModel" Version="14.0.0" />
     <PackageVersion Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.10.48" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="9.0.5" />
+    <PackageVersion Include="ModelContextProtocol" Version="0.2.0-preview.1" />
     <PackageVersion Include="NSubstitute" Version="5.0.0" />
     <PackageVersion Include="Shouldly" Version="4.2.1" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="2.8.1" />
