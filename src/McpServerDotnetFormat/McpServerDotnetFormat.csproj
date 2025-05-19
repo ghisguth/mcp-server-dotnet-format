@@ -5,6 +5,14 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <EnableSdkContainerSupport>true</EnableSdkContainerSupport>
+    <ContainerRepository>ghisguth/mcp-server-dotnet-format</ContainerRepository>
+    <ContainerImageTags>0.0.1;latest</ContainerImageTags>
+    <Version>0.0.1-alpha1</Version>
+    <ContainerRegistry>docker.io</ContainerRegistry>
+    <ContainerFamily>alpine</ContainerFamily>
+    <ContainerRuntimeIdentifiers>linux-x64;linux-arm64</ContainerRuntimeIdentifiers>
+    <RuntimeIdentifiers>linux-x64;linux-arm64;osx-arm64;osx-x64</RuntimeIdentifiers>
   </PropertyGroup>
 
   <ItemGroup>
